@@ -22,7 +22,7 @@ import { AbstractFormComponent } from './abstract-form-component';
 })
 class TestComponent extends AbstractFormComponent implements OnInit {
   constructor(private fb: FormBuilder) {
-    super(true, 'Generic error message');
+    super('Generic error message');
   }
   ngOnInit(): void {
     this.form = this.fb.group({

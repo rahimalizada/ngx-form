@@ -8,7 +8,6 @@ export class AbstractFormComponent {
   showSuccessMessage = false;
 
   constructor(
-    private withRecaptcha: boolean,
     private errorMsg: string = 'Operation failed, please try again shortly.'
   ) {}
 
