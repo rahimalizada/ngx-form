@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { NgxFormComponent } from './ngx-form.component';
 
 
 
 @NgModule({
-  declarations: [NgxFormComponent],
+  declarations: [],
   imports: [
   ],
-  exports: [NgxFormComponent]
+  exports: []
 })
 export class NgxFormModule { }
