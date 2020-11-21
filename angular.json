@@ -30,18 +30,16 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/rahimalizada/ngx-form/tsconfig.lib.json",
-              "projects/rahimalizada/ngx-form/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/rahimalizada/ngx-form/**/*.ts",
+              "projects/rahimalizada/ngx-form/**/*.html"
             ]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "@rahimalizada/ngx-form"
 }
