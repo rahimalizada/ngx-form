@@ -1,6 +1,6 @@
 {
   "name": "ngx-form",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Shared library for working with angular forms",
   "keywords": [
     "angular",
